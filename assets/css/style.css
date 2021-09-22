@@ -3,3 +3,134 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 80px;
+    background-color: #3161e0;
+}
+
+
+header nav{
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    line-height: 80px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+header .btn{
+    float:right;
+    width: 20%;
+    line-height: 80px;
+    text-align: center;
+}
+
+header .btn button{
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+header .btn button a, header .btn button a:visited{
+    color: black;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    line-height: 80px;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.jumbotron{
+    position: relative;
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.jumbo-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.jumbo-text h1{
+    font-size: 60px;
+}
+
+.jumbo-text p{
+    margin: 36px 0;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+.jumbo-text button{
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.jumbo-text button:first-of-type{
+    margin-right: 20px;
+}
+
+.black{
+    background-color: #222629;
+}
+
+.black a, .black a:visited{
+    color: white;
+}
+
+.white a, .white a:visited{
+    color: black;
+}
+
+
