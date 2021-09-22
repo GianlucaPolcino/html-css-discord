@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
@@ -70,6 +70,15 @@ header .btn button a, header .btn button a:visited{
 
 button a{
     text-decoration: none;
+}
+
+section h2{
+    font-size: 40px;
+}
+
+section p{
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .logo{
@@ -132,5 +141,44 @@ button a{
 .white a, .white a:visited{
     color: black;
 }
+
+.bg-first{
+    margin-top: 600px;
+}
+
+.bg.colored{
+    background-color: #f6f6f6;
+}
+
+.section-img{
+    float: left;
+    width: 70%;
+}
+
+.section-text{
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+}
+
+.section-text-bottom{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-img-bottom{
+    text-align: center;
+}
+
+.section-img-bottom button{
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+
+
 
 
