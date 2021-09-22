@@ -198,8 +198,7 @@ footer{
     background-size: contain;
 }
 
-footer div{
-    height: 600px;
+footer .footer-bg{
     background-color: #23272a;
 }
 
@@ -210,6 +209,8 @@ footer div{
 
 .second-footer{
     float: left;
+    margin-top: 40px;
+    width: 16%;
 
 }
 
@@ -242,7 +243,8 @@ footer ul{
 }
 
 footer ul li{
-    padding: 20px 20px;
+    padding: 0 20px;
+    margin-bottom: 10px;
 }
 
 .footer-title{
@@ -250,11 +252,32 @@ footer ul li{
     font-size: 16px;
 }
 
-.second-footer{
-    width: 16%;
+.footer-bottom{
+    border-top: 1px solid #8ea1e2;
+    margin: 30px 0;
 }
 
+.logo-bottom{
+    float: left;
+    margin-top: 11px;
+}
 
+.button-bottom{
+    float: right; 
+}
 
+.button-bottom button{
+    cursor: pointer;
+    padding: 16px 28px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #8ea1e2;
+}
+
+.button-bottom button a, .button-bottom button a:visited{
+    color: white;
+}
 
 
